@@ -1,61 +1,20 @@
-# wan27_tg_bot
+# Legacy Telegram Bot Starter
 
-Стартовый шаблон Telegram-бота на Python с использованием `python-telegram-bot`.
+> **Archived starter template. Not an active portfolio project.**
 
-## Что внутри
+This repository is a minimal historical Telegram bot scaffold kept for reference. It contains only the basic project structure and `/start` / `/help` flows.
 
-- `bot.py` — точка входа бота
-- `requirements.txt` — зависимости проекта
-- `.env.example` — пример переменных окружения
-- `.gitignore` — исключения для Git
+It is intentionally **not representative of my current engineering level**. Current production work is shown in the larger FastAPI/PostgreSQL/Redis/AI application repositories on this profile.
 
-## Быстрый старт
+## Contents
 
-1. Создайте виртуальное окружение:
-
-```bash
-python -m venv .venv
+```text
+bot.py
+requirements.txt
+.env.example
+.gitignore
 ```
 
-2. Активируйте его:
+## Status
 
-```bash
-# Windows
-.venv\Scripts\activate
-
-# macOS / Linux
-source .venv/bin/activate
-```
-
-3. Установите зависимости:
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Создайте файл `.env` на основе `.env.example`:
-
-```bash
-cp .env.example .env
-```
-
-5. Добавьте токен бота от BotFather в `.env`:
-
-```env
-BOT_TOKEN=your_telegram_bot_token_here
-```
-
-6. Запустите бота:
-
-```bash
-python bot.py
-```
-
-## Команды
-
-- `/start` — приветствие
-- `/help` — список доступных команд
-
-## Важно
-
-Не коммитьте `.env` и токены в репозиторий.
+Legacy/template only. No active development planned.
